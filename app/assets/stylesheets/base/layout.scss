@@ -1,0 +1,100 @@
+/* Define application-wide selectors here!*/
+
+html {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
+}
+
+button {
+	background-color: $light-blue;
+	border-color: none;
+	color: white;
+	font-weight: 700;
+	padding: 7px;
+	border-radius: 3px;
+	transition: 0s;
+	font-family: $sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+}
+
+button:hover {
+	background-color: $darkest-blue;
+	border-color: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+  font-family: $serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  margin: 0;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+h1:hover, h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+	margin-bottom: 12px;
+}
+
+h5 {
+  color: $gray;
+  font-size: 12px;
+  margin: 0 0 12px 0;
+}
+
+input[type="text"] {
+	border: 1px solid $gray;
+	padding: 6px;
+	margin: 0;
+	width: 80%;
+	border-radius: 3px;
+	font-family: $sans-serif;
+}
+
+
+/*
+	Header Rules
+*/
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: $light-gray;
+}
+
+.hr-top, .hr-bottom {
+	width: 60%;
+	margin: 12px auto;
+}
+
+.hr-top {
+	height: 2px;
+	margin-bottom: 1px;
+}
+
+.hidden {
+	display: none;
+}

@@ -1,0 +1,24 @@
+.section-links {
+  padding: 12px;
+  display: flex;
+  font-family: $sans-serif;
+  border-bottom: 1px solid $light-gray;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: baseline;
+}
+
+.section-links li:hover {
+  background-color: $light-gray;
+  cursor: pointer;
+}
+
+.section-links li:last-of-type {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.section-links li:last-of-type:hover {
+  background-color: transparent;
+}
