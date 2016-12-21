@@ -35,6 +35,28 @@ with a class attribute containing 'col-' */
     width: 100%;
   }
 
+  ul.section-links {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 700px) {
+  [class*='col-'] {
+    width: 100%;
+  }
+
+  .right-nav button {
+    display: none;
+  }
+
+  .subscribe {
+    display: none;
+  }
+
   .content {
     flex-direction: column;
   }
